@@ -30,6 +30,9 @@ My examples do not exhaust the number of bugs present on the Juice Shop website,
 | 
 
 Skills:
+- Writing automatic tests in Cypress
+- Basic knowledge of JavaScript
+
 - Manual testing of web application and mobile applications
 - REST API testing 
 - Knowledge of SQL 
@@ -41,10 +44,6 @@ Skills:
 - Experience in testing in different phases of the software development life cycle (SDLC)
 - Testing an application based on microservices
 - White label application testing
-
-
-- Writing automatic tests in Cypress
-- Basic knowledge of JavaScript
 
 - Web application security testing using Burp Suite 
 (XSS, SQL Injection, OS Command Injection, Path Traversal, Access control vulnerabilities, Information disclosures, Business logic vulnerabilities, Authentication vulnerabilities, JWT, Web LLM, SSRF, file upload vulnerabilities )
