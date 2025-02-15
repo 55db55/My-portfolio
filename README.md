@@ -10,6 +10,9 @@ The following table provides a thematic description of these examples.
 
 My examples do not exhaust the number of bugs present on the Juice Shop website, but they are an example of my testing method.
 
+Additionally, I am attaching sample automated tests written in Playwright and Cypress. I am including these sample tests with the consent of my employer.
+
+
 
 
 ## Table of Contents
@@ -26,12 +29,14 @@ My examples do not exhaust the number of bugs present on the Juice Shop website,
   [User can view another user's order details ](files/OtherUserOrderDetails.pdf) | #Security #Bug report |
 | [Bonus has incorrect format](files/Bonus-incorrectFormat.pdf) | #Manual #Bug report |
 | [User has access to sensitive data contained in file Robots.txt](files/Robots.pdf) | #Security #Bug report |
-| [Testing Contact Page AgentTrainer](ContactPage) | #Automation |
-| 
+| [Testing Application AgentTrainer](Playwright-AgT) | #Automation #Playwright|
+| [Testing Contact Page AgentTrainer](ContactPage) | #Automation #Cypress|
+
+
 
 Skills:
-- Writing automatic tests in Cypress
-- Basic knowledge of JavaScript
+- Writing automatic tests in Playwright and Cypress
+- Basic knowledge of JavaScript, TypeScript
 
 - Manual testing of web application and mobile applications
 - REST API testing 
