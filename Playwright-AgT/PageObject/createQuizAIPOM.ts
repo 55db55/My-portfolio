@@ -1,15 +1,15 @@
-import { expect, Page } from '@playwright/test';
+import { expect, Locator, Page } from '@playwright/test';
 
 export class CreateQuizAIPOM {
-  page: Page;
-  createNewQuizButtonOnDashboard: any;
-  chooseQuziAIButton: any;
-  quizAINameField: any;
-  assignUser: any;
-  acceptAINextButton: any;
-  createQuizButton: any;
-  manageQuizzesHeader: any;
-  createdAIQuiz: any;
+  private page: Page;
+  readonly createNewQuizButtonOnDashboard: Locator;
+  readonly chooseQuziAIButton: Locator;
+  readonly quizAINameField: Locator;
+  readonly assignUser: Locator;
+  readonly acceptAINextButton: Locator;
+  readonly createQuizButton: Locator;
+  readonly manageQuizzesHeader: Locator;
+  readonly createdAIQuiz: Locator;
 
   constructor(page: Page) {
     this.page = page
@@ -22,7 +22,7 @@ export class CreateQuizAIPOM {
     this.createdAIQuiz = page.locator('.SidebarWithItems_list__xm3B_ > li > a').first()
   }
 
-  async createQuizAI(quizAIName) {
+  async createQuizAI(quizAIName: string) {
     await this.createNewQuizButtonOnDashboard.click()
     await this.chooseQuziAIButton.click()
     await this.quizAINameField.fill(quizAIName)

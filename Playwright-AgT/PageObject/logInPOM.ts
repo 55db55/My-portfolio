@@ -1,12 +1,12 @@
-import { Page } from '@playwright/test';
+import { Locator, Page } from '@playwright/test';
 export class LogInPOM {
 
-    page: Page;
-    logInAsLiveChatUserBtn: any;
-    usernameField: any;
-    passwordField: any;
-    logInButton: any;
-    homeHeading: any;
+    private page: Page;
+    readonly logInAsLiveChatUserBtn: Locator;
+    readonly usernameField: Locator;
+    readonly passwordField: Locator;
+    readonly logInButton: Locator;
+    readonly homeHeading: Locator;
 
     constructor(page: Page) {
         this.page = page
@@ -21,8 +21,7 @@ export class LogInPOM {
         await this.page.goto('__login-app_url__');
     }
 
-    async logIn(username, password) {
-
+    async logIn(username: string, password: string) {
         await this.logInAsLiveChatUserBtn.click()
         await this.usernameField.fill(username)
         await this.passwordField.fill(password)
