@@ -34,7 +34,7 @@ export class CreateQuizAITestBackButtonsPOM {
         this.createdAIQuiz = page.locator('a').filter({ hasText: 'QUIZdraftQuizAITestBackButtons' }).first()
     }
 
-    async createQuizAITestBackButtons(quizAIName) {
+    async createQuizAITestBackButtons(quizAIName: string) {
         await this.createNewQuizButtonOnDashboard.click()
         await this.chooseQuziAIButton.click()
         await this.quizAINameField.fill(quizAIName)
