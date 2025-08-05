@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumTestSuite">
+   
+   <listeners>
+        <listener class-name="utils.AllureScreenshotListener"/>
+    </listeners>
+   
+    <test name="LoginTests">
+        <classes>
+            <class name="pl.selenium.at.tests.logInTests.ValidLogIn"/>
+            <class name="pl.selenium.at.tests.logInTests.InvalidLogIn"/>
+        </classes>
+    </test>
+
+    <test name="QuizTests">
+        <classes>
+            <class name="pl.selenium.at.tests.quizTests.ManualQuiz"/>
+            <class name="pl.selenium.at.tests.quizTests.ManualQuizError"/>
+            <class name="pl.selenium.at.tests.quizTests.AIQuiz"/>
+            <class name="pl.selenium.at.tests.quizTests.AIQuizError"/>
+        </classes>
+    </test>
+
+    <test name="SimulationTests">
+        <classes>
+            <class name="pl.selenium.at.tests.simulationsTests.Procedure"/>
+            <class name="pl.selenium.at.tests.simulationsTests.ProcedureError"/>
+        </classes>
+    </test>
+</suite> 

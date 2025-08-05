@@ -1,3 +1,21 @@
 # Ignore .DS_Store files
 .DS_Store
 
+# Ignore log files
+*.log
+logs/
+**/logs/
+
+# Ignore Allure files
+.allure/
+allure-results/
+allure-report/
+allure-commandline/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Java compiled files
+*.class
+**/target/
+bin/
