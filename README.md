@@ -31,6 +31,8 @@ Additionally, I am attaching sample automated tests written in Playwright and Cy
 | [User has access to sensitive data contained in file Robots.txt](files/Robots.pdf) | #Security #Bug report |
 | [Testing Application AgentTrainer](Playwright-AgT) | #Automation #Playwright|
 | [Testing Contact Page AgentTrainer](ContactPage) | #Automation #Cypress|
+| [Testing Application AgentTrainer](Selenium-AgT/selenium-at) | #Automation #Selenium|
+
 
 
 
