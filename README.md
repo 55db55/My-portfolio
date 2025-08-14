@@ -26,19 +26,21 @@ Additionally, I am attaching sample automated tests written in Playwright and Cy
 | [Total price has invalid format](files/TotalPrice.pdf) | #Manual #Bug report |
 | [User can buy the product for a negative amount](files/negativeAmount.pdf) | #Security #Bug report |
 | [User can buy the product for a negative amount - attached movie](files/NEGATIVEammount.mov) | #Security #Bug report |
-  [User can view another user's order details ](files/OtherUserOrderDetails.pdf) | #Security #Bug report |
+|  [User can view another user's order details ](files/OtherUserOrderDetails.pdf) | #Security #Bug report |
 | [Bonus has incorrect format](files/Bonus-incorrectFormat.pdf) | #Manual #Bug report |
 | [User has access to sensitive data contained in file Robots.txt](files/Robots.pdf) | #Security #Bug report |
-| [Testing Application AgentTrainer](Playwright-AgT) | #Automation #Playwright|
-| [Testing Contact Page AgentTrainer](ContactPage) | #Automation #Cypress|
+| [Testing Application AgentTrainer using Playwright](Playwright-AgT) | #Automation #Playwright|
+| [Testing Appplication AgentTrainer using Cypress](Cypress-AgT) | #Automation #Cypress|
+| [Testing API AgentTrainer using Cypress](Cypress-AgT/cypress/apiTests/APItests) | #Automation #Cypress #API testing|
+| [Testing Contact Page AgentTrainer using Cypress](ContactPage) | #Automation #Cypress|
 | [Testing Application AgentTrainer](Selenium-AgT/selenium-at) | #Automation #Selenium|
 
 
 
 
 Skills:
-- Writing automatic tests in Playwright and Cypress
-- Basic knowledge of JavaScript, TypeScript
+- Writing automatic tests in Playwright, Cypress and Selenium
+- Knowledge of JavaScript, TypeScript, Java
 
 - Manual testing of web application and mobile applications
 - REST API testing 
@@ -59,9 +61,9 @@ Skills:
 
 
 Tools and a set of technologies that I know and use at work:
-- Tools supporting testing: Developer console, Postman, Swagger, Xcode, Android Studio, DBeaver, Burp Suite, Cypress
+- Tools supporting testing: Developer console, Postman, Swagger, Xcode, Android Studio, DBeaver, Burp Suite, Cypress, Playwright, Selenium
 - Test management tools: Jira, Confluence
-- Programming languages : basic knowledge of JavaScript
+- Programming languages : knowledge of JavaScript, TypeScript, Java
 - Databases: Postgress, MongoDB
 - Operating systems: macOS, Windows, Linux
 - Version control systems: GIT
