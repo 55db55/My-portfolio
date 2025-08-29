@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iOS Tests">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <listener class-name="tests.AllureScreenshotListener"/>
+    </listeners>
+
+    <test name="Contacts App Tests">
+        <classes>
+            <class name="tests.AddContact"/>
+            <class name="tests.EditContact"/>
+            <class name="tests.SearchContact"/>
+            <class name="tests.DeleteContact"/>
+        </classes>
+    </test>
+</suite>
